@@ -1,4 +1,9 @@
 CLIENT-SERVER ARCHITECTURE WITH MYSQL
+***
 
-Understanding Client-Server Architecture
+Mysql client installed on mysql client linux server
+```
+sudo apt install mysql-client
 
+```
+![screenshot](./images/mysqlclient.png)
