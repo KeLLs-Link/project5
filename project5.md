@@ -14,8 +14,17 @@ mysqlserver server installed on mysqlserver instance
 
 ![screenshot](./images/mysqlserver.png)
 
+
 ```
 sudo apt install mysql-server
 ```
+***
+MySQL server configured to allow connections from remote hosts.
+```
+sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
+```
+
+![screenshot](./images/bindaddresschanged.png)
+
 
 
