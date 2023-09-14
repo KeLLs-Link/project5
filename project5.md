@@ -19,6 +19,16 @@ mysqlserver server installed on mysqlserver instance
 sudo apt install mysql-server
 ```
 ***
+Ensure that the server is running using the systemctl command:
+
+```
+sudo systemctl start mysql.service
+sudo systemctl status mysql.service
+```
+![screenshot](./images/mysqlserverup.png)
+
+***
+
 MySQL server configured to allow connections from remote hosts.
 ```
 sudo vi /etc/mysql/mysql.conf.d/mysqld.cnf
